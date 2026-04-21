@@ -1,48 +1,26 @@
-# Customer Churn Prediction System
+A machine learning project that predicts customer churn using classification techniques, with model evaluation and visualization.
+# 📊 Customer Churn Prediction System
 
-A portfolio-ready machine learning project that predicts customer churn from tabular customer data.
+A machine learning project that predicts customer churn using classification techniques, with model evaluation and visualization.
 
-## Highlights
-- End-to-end ML workflow for binary classification
-- Data cleaning and preprocessing pipeline
-- Model training with Random Forest
-- Evaluation with accuracy, precision, recall, F1, and ROC-AUC
-- Confusion matrix and feature importance chart export
-- GitHub-ready structure for university applications
+---
 
-## Project Structure
-```text
-customer_churn_prediction/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── sample_data.csv
-├── src/
-│   ├── main.py
-│   └── utils.py
-└── assets/
-    ├── confusion_matrix.png
-    ├── feature_importance.png
-    └── classification_report.txt
-```
+## 🚀 Overview
 
-## Dataset
-This repo includes a small synthetic `sample_data.csv` so the project runs immediately.
+This project demonstrates a complete machine learning workflow, including data preprocessing, model training, evaluation, and visualization.
 
-You can later replace it with a real dataset such as Telco Customer Churn by keeping the target column name as `Churn`.
+---
 
-## How to Run
-```bash
-pip install -r requirements.txt
-python src/main.py --data sample_data.csv
-```
+## ✨ Features
 
-## Output
-The script:
-- trains a churn model
-- prints evaluation metrics
-- saves charts to `assets/`
-- saves a classification report to `assets/classification_report.txt`
+- Data preprocessing and cleaning  
+- Categorical encoding  
+- Model training using Random Forest  
+- Performance evaluation (Accuracy, Precision, Recall, F1 Score)  
+- Confusion matrix visualization  
+- Feature importance analysis  
+
+---
 
 ## 📊 Model Evaluation
 
@@ -52,4 +30,29 @@ The script:
 ### Feature Importance
 ![Feature Importance](assets/feature_importance.png)
 
-The model performance is evaluated using classification metrics and visualized through confusion matrix and feature importance analysis.
+---
+
+## 🛠 Tech Stack
+
+- Python  
+- Pandas  
+- Scikit-learn  
+- Matplotlib  
+
+---
+
+## ▶️ How to Run
+
+bash
+pip install -r requirements.txt
+python src/main.py
+📁 Project Structure
+src/
+assets/
+requirements.txt
+README.md
+📌 Use Case
+Helps businesses identify customers likely to leave and take preventive actions.
+
+
+Danyal Hendousinabad
